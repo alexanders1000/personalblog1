@@ -3,7 +3,7 @@
   --text-primary: #333;
   --text-secondary: #666;
   --background: #fff;
-  --accent: #0066cc;
+  --accent: #333333; /* 0066cc */
   --spacing: 2rem;
 }
 
