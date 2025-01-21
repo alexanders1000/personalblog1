@@ -1,0 +1,62 @@
+/* styles.css */
+:root {
+  --text-primary: #333;
+  --text-secondary: #666;
+  --background: #fff;
+  --accent: #0066cc;
+  --spacing: 2rem;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing);
+}
+
+nav {
+  margin-bottom: var(--spacing);
+  padding-bottom: var(--spacing);
+  border-bottom: 1px solid #eee;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+h1, h2, h3 {
+  color: var(--text-primary);
+}
+
+.section {
+  margin-bottom: var(--spacing);
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.project-card, .essay-card, .book-card {
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.project-card:hover, .essay-card:hover, .book-card:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.date {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
